@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <h1 class="header__title">Изучение Веб-разработки</h1>
+        <button id="logout" class="header__logout">Выйти</button>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__item">
+            <a href="#html" class="header__link">HTML</a>
+          </li>
+          <li class="header__item">
+            <a href="#css" class="header__link">CSS</a>
+          </li>
+          <li class="header__item">
+            <a href="#js" class="header__link">JavaScript</a>
+          </li>
+          <li class="header__item">
+            <a href="#php" class="header__link">PHP</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="html" class="section section--html">
+        <h2 class="section__title">Основы HTML</h2>
+        <p class="section__description">
+          Изучите структуру веб-страниц с помощью HTML.
+        </p>
+      </section>
+
+      <section id="css" class="section section--css">
+        <h2 class="section__title">Стилизация с CSS</h2>
+        <p class="section__description">
+          Создавайте стильные веб-страницы с помощью CSS.
+        </p>
+      </section>
+      <section id="js" class="section section--js">
+        <h2 class="section__title">Программирование на JavaScript</h2>
+        <p class="section__description">
+          Добавьте интерактивность вашим сайтам с JavaScript. К примеру, вы
+          можете созdать крутую <a href="game/game.html">игру</a> с помощью JS.
+          <a href="game2/index.html">Или такую</a>
+        </p>
+      </section>
+      <section id="php" class="section section--php">
+        <h2 class="section__title">PHP для серверной части</h2>
+        <p class="section__description">
+          Научитесь управлять серверной логикой с помощью PHP.
+        </p>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">&copy; 2024 Изучение Веб-разработки</p>
+    </footer>
+  </body>
+</html>

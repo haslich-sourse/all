@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.header__title {
+  margin: 0;
+  font-size: 2rem;
+}
+.header__nav {
+  margin-top: 20px;
+}
+.header__menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.header__item {
+  margin: 0 10px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+.header__link:hover {
+  color: #00aaff;
+}
+.main {
+  padding: 20px;
+}
+.section {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section__title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.section__description {
+  font-size: 1.2rem;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer__text {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.header__logout {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.header__logout:hover {
+  background-color: #ff1a1a;
+}
+
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 1.5rem;
+  }
+
+  .header__menu {
+    flex-direction: column;
+  }
+
+  .header__item {
+    margin: 10px 0;
+  }
+
+  .header__link {
+    font-size: 1rem;
+  }
+
+  .section__title {
+    font-size: 1.5rem;
+  }
+
+  .section__description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__title {
+    font-size: 1.2rem;
+  }
+
+  .header__menu {
+    flex-direction: column;
+  }
+
+  .header__link {
+    font-size: 0.9rem;
+  }
+
+  .section__title {
+    font-size: 1.2rem;
+  }
+
+  .section__description {
+    font-size: 0.9rem;
+  }
+
+  .main {
+    padding: 10px;
+  }
+
+  .section {
+    padding: 15px;
+  }
+}

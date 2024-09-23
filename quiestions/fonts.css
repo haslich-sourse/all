@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("fonts/OldStandardTT-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MyFont";
+  src: url("fonts/KaushanScript-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.font {
+  font-family: "Dancing Script", cursive;
+}
+.font2 {
+  font-family: "MyCustomFont", sans-serif;
+}
+.font3 {
+  font-family: "MyFont";
+}

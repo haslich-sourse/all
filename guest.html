@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сайт про Веб-разработку</title>
+    <link rel="stylesheet" href="guest.css" />
+    <script src="login.js" defer></script>
+  </head>
+  <body>
+    <div class="login">
+      <h2 class="login__title">Докажите, что вы Веб-разработчик</h2>
+      <form id="loginForm" class="login__form">
+        <div class="login__field">
+          <label for="username">Логин:</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="login__field">
+          <label for="password">Пароль:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <button type="submit" class="login__submit">Войти</button>
+      </form>
+      <p id="message" class="login__message"></p>
+    </div>
+  </body>
+</html>
